@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Benchmark data and generated reports
+benchmark_resumes/
+benchmark_report.csv
+benchmark_full_pipeline_report.csv
+
+# Temporary files and logs
+*.log
+*.tmp
+# Local backup
+app_backup.txt 
